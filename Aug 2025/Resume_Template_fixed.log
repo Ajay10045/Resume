@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.16)  18 JUL 2025 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.16)  18 JUL 2025 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template.tex"
-(/Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template.tex
+**"/Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template_fixed.tex"
+(/Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template_fixed.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
@@ -240,8 +240,8 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box99
-) (./Resume_Template.aux)
-\openout1 = `Resume_Template.aux'.
+) (./Resume_Template_fixed.aux)
+\openout1 = `Resume_Template_fixed.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -297,28 +297,28 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 11.
-(./Resume_Template.out) (./Resume_Template.out)
+(./Resume_Template_fixed.out) (./Resume_Template_fixed.out)
 \@outlinefile=\write3
-\openout3 = `Resume_Template.out'.
+\openout3 = `Resume_Template_fixed.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 20.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 17.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 31.
-LaTeX Font Info:    No file OMScmss.fd. on input line 31.
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 25.
+LaTeX Font Info:    No file OMScmss.fd. on input line 25.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbar' on input line 31.
+(Font)              for symbol `textbar' on input line 25.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <5> on input line 36.
 
-Overfull \hbox (4.14252pt too wide) in paragraph at lines 41--46
+Overfull \hbox (4.14252pt too wide) in paragraph at lines 35--41
 [] 
  []
 
@@ -328,7 +328,7 @@ Overfull \hbox (4.14252pt too wide) in paragraph at lines 41--46
 
 {/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
 
-[2] (./Resume_Template.aux)
+[2] (./Resume_Template_fixed.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -337,22 +337,22 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Resume_Template.out' has not changed.
+Package rerunfilecheck Info: File `Resume_Template_fixed.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  10154 strings out of 474662
- 158605 string characters out of 5751109
- 576193 words of memory out of 5000000
+ 158719 string characters out of 5751109
+ 577223 words of memory out of 5000000
  33123 multiletter control sequences out of 15000+600000
  561245 words of font info for 44 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 69i,8n,79p,598b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,8n,79p,604b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/ajaynehra/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Resume_Template.pdf (2 pages, 75733 bytes).
+Output written on Resume_Template_fixed.pdf (2 pages, 75927 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 34 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,8 +2,8 @@ PWD /Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025
 INPUT /usr/local/texlive/2025basic/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template.tex
-OUTPUT Resume_Template.log
+INPUT /Users/ajaynehra/Desktop/Personal Documents GDrive/Resume/Aug 2025/Resume_Template_fixed.tex
+OUTPUT Resume_Template_fixed.log
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo
@@ -93,18 +93,18 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomes
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./Resume_Template.aux
-INPUT ./Resume_Template.aux
-INPUT Resume_Template.aux
-OUTPUT Resume_Template.aux
-INPUT ./Resume_Template.out
-INPUT ./Resume_Template.out
-INPUT Resume_Template.out
-INPUT Resume_Template.out
-INPUT ./Resume_Template.out
-INPUT ./Resume_Template.out
-OUTPUT Resume_Template.out
-OUTPUT Resume_Template.pdf
+INPUT ./Resume_Template_fixed.aux
+INPUT ./Resume_Template_fixed.aux
+INPUT Resume_Template_fixed.aux
+OUTPUT Resume_Template_fixed.aux
+INPUT ./Resume_Template_fixed.out
+INPUT ./Resume_Template_fixed.out
+INPUT Resume_Template_fixed.out
+INPUT Resume_Template_fixed.out
+INPUT ./Resume_Template_fixed.out
+INPUT ./Resume_Template_fixed.out
+OUTPUT Resume_Template_fixed.out
+OUTPUT Resume_Template_fixed.pdf
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
@@ -117,9 +117,9 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm
 INPUT /usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
-INPUT Resume_Template.aux
-INPUT ./Resume_Template.out
-INPUT ./Resume_Template.out
+INPUT Resume_Template_fixed.aux
+INPUT ./Resume_Template_fixed.out
+INPUT ./Resume_Template_fixed.out
 INPUT /Users/ajaynehra/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb

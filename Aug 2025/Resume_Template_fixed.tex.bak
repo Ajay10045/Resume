@@ -38,11 +38,11 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
     \textbf{\LARGE \MakeUppercase{Skills}}\\[-1.2ex]
     \noindent\rule{\textwidth}{0.8pt}
 \end{center}
-\textbf{Programming Languages:} Python, R, SQL, C, Julia\\
-\textbf{Cloud Technologies:} Databricks, Azure \& GCP\\
-\textbf{Data Visualization:} Tableau, R Shiny, Power BI \\
-\textbf{MLOps \& Version Control:} Kedro, Git, Docker
-
+\begin{tabular}{p{0.48\textwidth}@{\hspace{0.7cm}}p{0.45\textwidth}}
+    \textbf{Programming Languages:} Python, R, SQL, C, Julia & \textbf{Cloud Platforms:} Databricks, Azure, GCP \\
+    \textbf{ML Techniques:} Mixed Models, XGBoost, Random Forest, Linear \& Logistic Regression, k-means clustering & \textbf{ML Libraries:} Scikit-learn, PyTorch, Pandas, NumPy, Statsmodels, Matplotlib, PyMC\\
+    \textbf{Data Visualization:} Tableau, R Shiny, Power BI & \textbf{MLOps:} Kedro, Git, Docker \\
+\end{tabular}
 
 
 \vspace{1mm}
@@ -96,7 +96,7 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{MasterCard Advisors} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Built machine learning pipelines using Spark and Hadoop to process Mastercard’s large-scale transaction data, enabling k-means clustering and decision tree models that drove targeted bank and merchant strategies.
+    \item Built machine learning pipelines using Spark and Hadoop to process Mastercard's large-scale transaction data, enabling k-means clustering and decision tree models that drove targeted bank and merchant strategies.
 
     \item Improved customer acquisition by identifying high-propensity segments and optimizing targeting across banking partners, resulting in a 10\% uplift in engagement and 30\% reduction in acquisition cost.
 
