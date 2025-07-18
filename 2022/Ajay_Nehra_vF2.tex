@@ -1,0 +1,162 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlesec}
+%\usepackage{mathptmx}
+\usepackage{lato}
+%\usepackage{times}
+%\usepackage{mathpazo}
+%\usepackage{charter}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    urlcolor=blue,
+    breaklinks=true
+}
+
+% Set page margins
+\geometry{left=1cm,right=1cm,top=2cm,bottom=2cm}
+
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Define section formatting
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{black}}
+  {}
+  {0em}
+  {\mysection}
+
+\newcommand{\mysection}[1]{%
+  \colorbox[RGB]{200,200,200}{\parbox{\dimexpr\linewidth-2\fboxsep}{\MakeUppercase{\textbf{{#1}}}}}%
+  \vspace{2pt}% Adjust the vertical spacing as desired
+}
+
+% Remove indent for section content
+\titlespacing*{\section}
+  {0pt} % left
+  {6pt} % before
+  {0pt} % after
+
+
+
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\huge Ajay Nehra}
+\end{center}
+
+%
+
+% Contact Information
+\section*{Contact Information}
+\noindent
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllr@{}}
+    \textbf{Email:} \href{mailto:nehraa.2014@iitkalumni.org}{nehraa.2014@iitkalumni.org} &
+    \textbf{Phone:} (+91)-9997272281 &
+    \href{https://www.linkedin.com/in/ajay-n-575bba23/}{\textcolor{violet}{\underline{LinkedIn}}} &
+    \href{https://github.com/ajaynehra}{\textcolor{black!60!green}{\underline{GitHub}}}
+\end{tabular*}
+
+
+
+
+
+% Summary
+\section*{Summary}
+Data scientist with 8+ years of experience in development and deployment of data-driven solutions across industries. Highly skilled in Python, R, SQL, and cloud technologies (Databricks, Azure and AWS). Strong analytical and critical thinking skills combined with a deep understanding of statistical modeling and machine learning algorithms. Proactive in  applying new techniques and methodologies to enhance the team's capabilities
+
+
+% Education
+\section*{Education}
+\textbf{Indian Institute of Technology (IIT), Kanpur} \hfill \textnormal{Jul 2010 - May 2014} \\
+Bachelor of Technology in Civil Engineering
+% Summary
+
+% Work Experience
+\section*{Work Experience}
+\begin{itemize}[leftmargin=0.2cm, label={}]
+    \item \textbf{McKinsey \& Company, Specialist-Data Sciences} \hfill \textnormal{Nov 2019 to Present}
+    \begin{itemize}[leftmargin=0.5cm, label={\textbullet}]
+        \item Leveraged machine learning algorithms to uncover price patterns and opportunities for revenue and profit optimization.
+        \item Led the development and deployment of pricing models, profit and revenue optimization solutions for CPG clients.
+        \item Collaborated with cross-functional teams of data engineers and business stackholders to design and implement scalable data pipelines for efficient data processing, model deployment and monitoring.
+    \end{itemize}
+    
+    \item \textbf{EY (Ernst \& Young), Senior Consultant-Data Sciences} \hfill \textnormal{Oct 2017 to May 2019}
+    \begin{itemize}[leftmargin=0.5cm, label={\textbullet}]
+        \item Deployed credit scoring models by implementing logistic regression, random forests, and gradient boosting to assess creditworthiness and enable informed lending decisions for banks in Dubai, Abu Dhabi, Kuwait, Qatar, and Bahrain.
+        \item Created ETL pipelines to automate the regulatory requirements of banks and internal reporting.
+    \end{itemize}
+    
+    \item \textbf{MasterCard Advisors, Data Scientist} \hfill \textnormal{Jan 2016 to Jun 2017}
+    \begin{itemize}[leftmargin=0.5cm, label={\textbullet}]
+        \item Developed data-driven solutions for banks and merchants by training machine learning models on transactional data.
+        \item Leveraged big data technologies like (spark \& hadoop) to manage high volume and velocity of transactional data
+    \end{itemize}
+    
+    \item \textbf{Fractal Analytics, Business Analyst} \hfill \textnormal{Jul 2014 to Dec 2015}
+    \begin{itemize}[leftmargin=0.5cm, label={\textbullet}]
+        \item Conducted marketing mix modeling using Log-Linear model to assess effectiveness of marketing events for CPG cleints 
+        \item Developed a comprehensive dashboard/visualization tool using R Shiny to analyze and visualize the growth and its drivers for Consumer Packaged Goods (CPG) clients
+        and channels.
+    \end{itemize}
+\end{itemize}
+
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{fadings}
+
+% Define color gradient
+\newcommand{\skillGradient}[2]{%
+  \begin{tikzfadingfrompicture}[name=skillGradient]
+    \shade[left color=white,right color=#1] (0,0) rectangle (1,1);
+  \end{tikzfadingfrompicture}%
+  \begin{tikzpicture}[baseline=(X.base)]
+    \node[inner sep=0pt,outer sep=0pt] (X) {#2};
+    \fill[#1,path fading=skillGradient] (X.south west) rectangle (X.north east);
+  \end{tikzpicture}%
+}
+
+% Skills
+\section*{Skills}
+\begin{itemize}[leftmargin=0.2cm, label={}]
+  \item \textbf{Programming Languages:} \skillGradient{black!80}{Python \& PySpark}, \skillGradient{black!60}{R}, \skillGradient{black!40}{SQL}, \skillGradient{black!20}{C}
+  \item \textbf{Cloud Technologies:} \skillGradient{black!70}{Spark on Hadoop \& Databricks}, \skillGradient{black!50}{Azure \& AWS for cost efficient storage and processing}
+  \item \textbf{Core Engineering:} \skillGradient{black!90}{Probability \& Statistics}, \skillGradient{black!70}{Linear Algebra}, \skillGradient{black!50}{Numerical Methods for Computation}
+  \item \textbf{MLOps:} \skillGradient{black!60}{Git}, \skillGradient{black!40}{Docker}, \skillGradient{black!20}{Jenkins}
+  \item \textbf{Visualization:} \skillGradient{black!80}{Tableau}, \skillGradient{black!60}{R Shiny}, \skillGradient{black!40}{Power BI}
+\end{itemize}
+
+
+
+
+
+% Achievements
+\section*{Achievements}
+\begin{itemize}[leftmargin=0.2cm, label={}]
+    \item All India Rank 1771 in IIT JEE 2010 (top 0.4\%) and 2575 in AIEEE 2010 (top 0.3\%)
+    \item Filed 6 patents on payment systems technologies and solutions in Mastercard Advisors
+\end{itemize}
+
+
+
+\end{document}
+
+
+
