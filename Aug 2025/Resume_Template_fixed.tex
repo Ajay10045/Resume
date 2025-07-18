@@ -51,12 +51,25 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \large Senior Data Scientist & \faCalendar \, Nov 2019 -- Present \\
 \textbf{McKinsey \& Company} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
-\begin{itemize}[itemsep=1pt, topsep=0pt]
-   \item Architected a price‑elasticity pipeline with mixed‑effects models for 3\,000\,+ SKUs in 10 countries; Pyomo optimisation re‑allocated a \$XX~M promo budget, lifting pilot‑market sales 7~\% and promo ROI 15~\%.
-   \item Built an XGBoost promotion‑lift model mapping 40\,+ promo attributes to expected volume; scenario simulator cut forecast error 25\% and now guides quarterly calendars across all regions.
-   \item Imputed coefficients for low‑volume / new SKUs with Random‑Forest ensembles, eliminating 90\,\% of manual overrides and enabling fully automated optimisation runs.
-   \item Productionised the stack—Kedro‑orchestrated Spark jobs on Azure/GCP—so new geographies go live in <$\!$4 weeks; mentored 10\,+ data scientists and rolled out firm‑wide validation templates.
+% \begin{itemize}[itemsep=1pt, topsep=0pt]
+%    \item Architected a price‑elasticity pipeline with mixed‑effects models for 3\,000\,+ SKUs in 10 countries; Pyomo optimisation re‑allocated a \$XX~M promo budget, lifting pilot‑market sales 7~\% and promo ROI 15~\%.
+%    \item Built an XGBoost promotion‑lift model mapping 40\,+ promo attributes to expected volume; scenario simulator cut forecast error 25\% and now guides quarterly calendars across all regions.
+%    \item Imputed coefficients for low‑volume / new SKUs with Random‑Forest ensembles, eliminating 90\,\% of manual overrides and enabling fully automated optimisation runs.
+%    \item Productionised the stack—Kedro‑orchestrated Spark jobs on Azure/GCP—so new geographies go live in <$\!$4 weeks; mentored 10\,+ data scientists and rolled out firm‑wide validation templates.
+% \end{itemize}
+
+\begin{itemize}
+  \item Built a reusable mixed‑effects framework for 20\,+ CPG clients that estimates price, promo, cannibalisation, and seasonality coefficients (100--250~SKUs per client); outputs feed a weekly demand‑forecast engine with up to 20\% lower error vs. legacy baselines.
+
+  \item Trained XGBoost uplift models on 40\,+ promo attributes to predict incremental volume and uncover high‑ROI mechanics; insights now drive quarterly promo calendars across 15\,+ markets.
+
+  \item Fed coefficient libraries into Pyomo/R~nloptr optimisation to recommend price‑pack‑promo mixes under spend and margin constraints, raising pilot‑market sales 5--8~\% and improving promo ROI 10--15~\%.
+
+  \item Productionised the stack with Kedro‑orchestrated Spark jobs on Azure/GCP, cutting new‑geography rollout from months to \textless4~weeks.
+
+  \item Mentored 10\,+ data scientists and codified firm‑wide RGM modelling standards—unit‑tested pipelines, peer code reviews, and validation checklists.
 \end{itemize}
+
 
 % IND-Money
 \noindent
@@ -66,7 +79,7 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
     \item Developed a feature-rich dashboard in INDMoney app for relationship managers to visualize AUM under their coverage, understand client risk profiles, and drive personalized outreach using integrated investment insights.
-    \item Collaborated with product and analytics teams to identify data-driven opportunities for feature improvement
+    % \item Collaborated with product and analytics teams to identify data-driven opportunities for feature improvement
 \end{itemize}
 
 % EY
@@ -100,9 +113,10 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{Fractal Analytics} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Built marketing mix models using linear regression and optimized marketing spend, achieving 8\% higher lift.
-    \item Created dashboards and reports in RShiny to visualize portfolio performance and support strategic decision-making.
-    \item Collaborated with client teams to embed model outputs into budget planning workflows and strategic reviews.
+    \item Built regression-based MMMs to optimize CPG spend; achieved 8% lift in campaign ROI.
+    % \item Built marketing mix models using linear regression and optimized marketing spend, achieving 8\% higher lift.
+    % \item Created dashboards and reports in RShiny to visualize portfolio performance and support strategic decision-making.
+    % \item Collaborated with client teams to embed model outputs into budget planning workflows and strategic reviews.
 \end{itemize}
 
 \vspace{1mm}

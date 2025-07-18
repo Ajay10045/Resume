@@ -122,6 +122,7 @@ INPUT ./Resume_Template_fixed.out
 INPUT ./Resume_Template_fixed.out
 INPUT /Users/ajaynehra/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
+INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
