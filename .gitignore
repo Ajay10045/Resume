@@ -1,2 +1,5 @@
 *.pdf
 Archive/
+*.md
+*.zip
+*.tar.gz

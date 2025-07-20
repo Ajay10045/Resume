@@ -28,20 +28,29 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \vspace{1mm}
 
 \begin{center}
-    \textbf{\LARGE \MakeUppercase{Skills}}\\[-1.2ex]
+    \textbf{\LARGE \MakeUppercase{Technical Skills}}\\[-1.2ex]
     \noindent\rule{\textwidth}{0.8pt}
 \end{center}
 
+% SKILLS
+% \noindent
+% \begin{tabular}{p{0.48\textwidth} p{0.48\textwidth}}
+%     \textbf{Programming Languages:} Python, R, SQL, C, Julia & \textbf{Cloud Platforms:} Databricks, Azure, GCP \\
+%     \textbf{ML Techniques:} Mixed Models, XGBoost, Regression, Classification ,Random Forest, K-means clustering & \textbf{ML Libraries:} Scikit-learn, PyTorch, Pandas, NumPy, Statsmodels, Matplotlib, PyMC\\
+%     \textbf{Data Visualization:} Tableau, R Shiny, Power BI & \textbf{MLOps:} Kedro, Git, Docker \\
+% \end{tabular}
+
 \noindent
 \begin{tabular}{p{0.48\textwidth} p{0.48\textwidth}}
-    \textbf{Programming Languages:} Python, R, SQL, C, Julia & \textbf{Cloud Platforms:} Databricks, Azure, GCP \\
-    \textbf{ML Techniques:} Mixed Models, XGBoost, Regression, Classification ,Random Forest, K-means clustering & \textbf{ML Libraries:} Scikit-learn, PyTorch, Pandas, NumPy, Statsmodels, Matplotlib, PyMC\\
-    \textbf{Data Visualization:} Tableau, R Shiny, Power BI & \textbf{MLOps:} Kedro, Git, Docker \\
+    \textbf{ML Techniques:} Mixed Models, Regression, XGBoost, Classification, Random Forest, K-means Clustering & \textbf{ML Libraries:} Scikit-learn, Statsmodels, PyTorch, SciPy, Pandas, NumPy, PyMC, Matplotlib \\
+    \textbf{Programming Languages:} Python, R, SQL, Julia, C & \textbf{Cloud Platforms:} Databricks, Azure, GCP \\
+    \textbf{MLOps:} Kedro, Git, Docker & \textbf{Visualization:} Tableau, R Shiny, Power BI \\
 \end{tabular}
+
 
 \vspace{1mm}
 \begin{center}
-    \textbf{\LARGE \MakeUppercase{Work Experience}}\\[-1.2ex]
+    \textbf{\LARGE \MakeUppercase{Experience}}\\[-1.2ex]
     \noindent\rule{\textwidth}{0.8pt}
 \end{center}
 
@@ -51,24 +60,39 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \large Senior Data Scientist & \faCalendar \, Nov 2019 -- Present \\
 \textbf{McKinsey \& Company} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
-% \begin{itemize}[itemsep=1pt, topsep=0pt]
-%    \item Architected a price‑elasticity pipeline with mixed‑effects models for 3\,000\,+ SKUs in 10 countries; Pyomo optimisation re‑allocated a \$XX~M promo budget, lifting pilot‑market sales 7~\% and promo ROI 15~\%.
-%    \item Built an XGBoost promotion‑lift model mapping 40\,+ promo attributes to expected volume; scenario simulator cut forecast error 25\% and now guides quarterly calendars across all regions.
-%    \item Imputed coefficients for low‑volume / new SKUs with Random‑Forest ensembles, eliminating 90\,\% of manual overrides and enabling fully automated optimisation runs.
-%    \item Productionised the stack—Kedro‑orchestrated Spark jobs on Azure/GCP—so new geographies go live in <$\!$4 weeks; mentored 10\,+ data scientists and rolled out firm‑wide validation templates.
+\begin{itemize}[itemsep=1pt, topsep=0pt]
+    \item Architected a \textbf{hierarchical regression engine} that outputs SKU baselines and price/promo elasticities, improves forecast accuracy by $\approx$ 20\% and drives pricing-and-promo decisions for \textbf{20+ CPG clients} across \textbf{40+ markets}
+    \item Extended the engine with a kedro‑based \textbf{Random‑Forest} pipeline that imputes coefficients for sparse or new SKUs, delivering 100\% assortment coverage and removing $\sim$90\% of manual overrides
+    \item \textit{Engineered a Promo Pattern Recognition system:} trained an XGBoost model on 40+ promo attributes to predict lift, deployed trained model to recommend ``Best Alternatives'' and auto-build promo calendars, raising ROI$\approx$ 12\%
+    \item Developed \textbf{price‑optimisation} pipeline using \textit{scipy.optimize} that leverages price elasticities to generate list‑price recommendations within margin, ladder, and competitor constraints, delivering a 3–5\% uplift
+    \item Cut rollout time for new clients and markets from months to $<$4 weeks by scaling Kedro–Spark pipelines on Azure
+    \item \textbf{Mentored} 10+ data scientists and defined coding \& validation standards to boost delivery speed and quality.
+\end{itemize}
+
+% \begin{itemize}
+%   \item Built a reusable mixed‑effects framework for 20\,+ CPG clients that estimates price, promo, cannibalisation, and seasonality coefficients (100--250~SKUs per client); outputs feed a weekly demand‑forecast engine with up to 20\% lower error vs. legacy baselines.
+%   \item Trained XGBoost uplift models on 40\,+ promo attributes to predict incremental volume and uncover high‑ROI mechanics; insights now drive quarterly promo calendars across 15\,+ markets.
+%   \item Fed coefficient libraries into Pyomo/R~nloptr optimisation to recommend price‑pack‑promo mixes under spend and margin constraints, raising pilot‑market sales 5--8~\% and improving promo ROI 10--15~\%.
+%   \item Productionised the stack with Kedro‑orchestrated Spark jobs on Azure/GCP, cutting new‑geography rollout from months to \textless{}4~weeks.
+%   \item Mentored 10\,+ data scientists and codified firm‑wide RGM modelling standards—unit‑tested pipelines, peer code reviews, and validation checklists.
 % \end{itemize}
 
-\begin{itemize}
-  \item Built a reusable mixed‑effects framework for 20\,+ CPG clients that estimates price, promo, cannibalisation, and seasonality coefficients (100--250~SKUs per client); outputs feed a weekly demand‑forecast engine with up to 20\% lower error vs. legacy baselines.
+% \begin{itemize}
+%   \item \textbf{Built the core econometric engine:} a linear-mixed-effects framework that separates baseline demand from price \& promo elasticities for every SKU-retailer-week; deployed to 20{,}+ CPG clients across 15{,}+ markets, cutting forecast error by up to 20\%.
+%   \item \textbf{Unlocked full‑portfolio lift modelling:} trained an XGBoost Promo‑Pattern‑Recognition model on 40\,+ promo attributes and filled sparse‑SKU gaps via Random‑Forest imputation, achieving 100~\% SKU coverage and 25~\% more accurate lift estimates.
+%   \item \textbf{Converted insights to dollars:} piped coefficient libraries into a Pyomo/R nloptr optimiser that re‑allocated \$XX M in promo budget, delivering 5–8 \% sales uplift and 10–15 \% promo‑ROI improvement in pilot roll‑outs.
+%   \item \textbf{Scaled and led delivery:} productionised the stack with Kedro‑orchestrated Spark on Azure/GCP—new client or geography live in <4 weeks—and mentored 10{,}+ data scientists while instituting unit tests and firm‑wide RGM model‑validation standards.
+% \end{itemize}
 
-  \item Trained XGBoost uplift models on 40\,+ promo attributes to predict incremental volume and uncover high‑ROI mechanics; insights now drive quarterly promo calendars across 15\,+ markets.
-
-  \item Fed coefficient libraries into Pyomo/R~nloptr optimisation to recommend price‑pack‑promo mixes under spend and margin constraints, raising pilot‑market sales 5--8~\% and improving promo ROI 10--15~\%.
-
-  \item Productionised the stack with Kedro‑orchestrated Spark jobs on Azure/GCP, cutting new‑geography rollout from months to \textless4~weeks.
-
-  \item Mentored 10\,+ data scientists and codified firm‑wide RGM modelling standards—unit‑tested pipelines, peer code reviews, and validation checklists.
-\end{itemize}
+% \begin{itemize}
+% \item Developed a linear mixed‑effects demand model that outputs product‑level baselines and price elasticities; the resulting coefficient library feeds McKinsey\,RGMx for 20\,+ CPG clients in 15\,+ markets and improves forecast accuracy by up to\,20\,\%.
+% \item Architected a demand-forecast platform using hierarchical mixed-effects models to generate weekly baselines and price/promo elasticities for every SKU--retailer; complemented with random-forest imputation for sparse SKUs, raising forecast accuracy $\approx$ 20\% across 20+ CPG clients in 15+ markets  
+% \item Engineered a hierarchical mixed-effects framework that delivers SKU-week baselines and price/promo elasticities, powering accurate forecasts, data-driven price moves, and promo-spend optimisation for 20+ CPG clients in 40+ markets ($\approx 20\%$ lower error)
+% \item Engineered a Promo\,Pattern\,Recognition engine with XGBoost on 40\,+ promotion attributes to predict incremental lift and recommend “best alternatives,” boosting average promo ROI 12\,\% and steering quarterly calendars.
+% \item Achieved 100\,\% assortment coverage by imputing coefficients for sparse or new SKUs with Random‑Forest ensembles, eliminating 90\,\% of manual overrides across all client deployments.
+% \item Automated data‑to‑production workflows with Kedro‑driven Spark jobs on Azure / GCP, cutting new‑market rollout to under four weeks.
+% \item Mentored 10\,+ data scientists and formalised unit tests, peer reviews, and validation templates now adopted as firm‑wide RGM standards.
+% \end{itemize}
 
 
 % IND-Money
@@ -78,8 +102,7 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{INDMoney} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Developed a feature-rich dashboard in INDMoney app for relationship managers to visualize AUM under their coverage, understand client risk profiles, and drive personalized outreach using integrated investment insights.
-    % \item Collaborated with product and analytics teams to identify data-driven opportunities for feature improvement
+    \item Built a dashboard in the INDMoney app for relationship managers to track AUM, assess client risk profiles, and tailor outreach with data‑driven investment recommendations—boosting client engagement and conversion.
 \end{itemize}
 
 % EY
@@ -89,9 +112,9 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{EY (Ernst \& Young)} & \faMapMarker \, Dubai \& Mumbai \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Built an Expected Credit Loss (ECL) pipeline using logistic regression to estimate TTC PD, LGD, and EAD, improving credit risk forecasts and increasing lending efficiency by 20\% through reduced default rates.
-    \item Derived PIT PD from TTC PD by overlaying macroeconomic factors and exposure timelines, enabling period-specific credit loss estimation required under IFRS 9 and improving provisioning accuracy.
-    \item Built a unified pipeline for IFRS 9 stress testing and regulatory reporting by automating scenario generation, model outputs, and disclosures, improving transparency and reducing turnaround time by over 65\%.
+    \item Developed \textbf{logistic-regression} models to estimate through-the-cycle (TTC) \textbf{probability of default} (PD), improving credit-risk segmentation and reducing default rates by 20\% across retail and SME portfolios in the GCC
+    \item Engineered an IFRS 9–compliant Expected Credit Loss (ECL) pipeline by deriving point-in-time (PIT) PD from TTC PD and integrating LGD/EAD models to enable multi-stage provisioning and enhance provisioning accuracy
+    \item Built an automated stress testing and reporting framework to generate regulatory disclosures across scenarios, cutting turnaround time by 65\% and ensuring compliance across multiple GCC central banks
 \end{itemize}
 
 % MasterCard Advisors
@@ -101,9 +124,10 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{MasterCard Advisors} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Built machine learning pipelines using Spark and Hadoop to process Mastercard's large-scale transaction data, enabling k-means clustering and decision tree models that drove targeted bank and merchant strategies.
-    \item Improved customer acquisition by identifying high-propensity segments and optimizing targeting across banking partners, resulting in a 10\% uplift in engagement and 30\% reduction in acquisition cost.
-   % \item Co-inventor on eight patent applications, including one granted and active—enabling real-time delivery rerouting based on user bids and location triggers: \href{https://patents.google.com/patent/US20180349851A1/en?inventor=Ajay+Nehra}{US20180349851A1}.
+    % \item Built Spark–Hadoop pipelines to prep transaction-level data for ML modeling across millions of cardholders
+    \item Trained decision tree model using \textit{sklearn.tree} on cardholder data to identify purchase patterns and recommend upsell/cross-sell offers based on product affinities, lifting conversion rate by 10–15\%
+    \item Built segments using k-means clustering algorithm from \textit{sklearn.cluster} on transaction level data to group cardholders by spend traits, enabling targeted campaigns reducing acquisition cost by 20\%.
+    % \item Co-inventor on eight patent applications, including one granted and active—\href{https://patents.google.com/patent/US20180349851A1/en?inventor=Ajay+Nehra}{US20180349851A1}.
 \end{itemize}
 
 % Fractal Analytics
@@ -113,7 +137,7 @@ Senior Data Scientist with 10+ years of experience applying ML to pricing, credi
 \textbf{Fractal Analytics} & \faMapMarker \, Gurgaon \\
 \end{tabular*}
 \begin{itemize}[itemsep=1pt, topsep=0pt]
-    \item Built regression-based MMMs to optimize CPG spend; achieved 8% lift in campaign ROI.
+    \item Built marketing mix models using log-linear regression to optimize CPG spend, delivering an 8\% uplift in ROI.
     % \item Built marketing mix models using linear regression and optimized marketing spend, achieving 8\% higher lift.
     % \item Created dashboards and reports in RShiny to visualize portfolio performance and support strategic decision-making.
     % \item Collaborated with client teams to embed model outputs into budget planning workflows and strategic reviews.
